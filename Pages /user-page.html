@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Minimalist Wireframe - landing page</title>
+    <link rel="stylesheet" type="text/css" href="../Styles/user-page.css">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+</head>
+<body>
+    <nav role="navigation">HOME | LOGIN</nav>
+
+    <main role="main">
+        <section>
+            <h1>Household Lists</h1>
+        </section>
+        <section class="user-input-form">
+            <form>
+                <label for="item">Item</label>
+                <input type="text" name="item-input" placeholder="Enter Item">
+                <label for="description">Description</label>
+                <input type="text" name="item-description" placeholder="Item Description">
+                    <select id="item-type">
+                        <option value selected="selected">Choose Item Type</option>
+                        <option value="clothing">Clothing</option>
+                        <option value="furniture">Furniture</option>
+                        <option value="kitchen">Kitchen</option>
+                        <option value="junk">Junk</option>
+                        <option value="misc">Misc.</option>
+                    </select>
+                <button class="itembtn" type="submit" id="itembtn">Submit</button>
+            </form>    
+        </section>
+
+        <section class="item-container">
+            <h1>Inventory</h1>
+                <ul>
+                    <li>Item: Shirts</li>
+                    <li>Description: white dress shirt</li>
+                    <li>Item Type: Clothing</li>
+                </ul>
+                <ul>
+                    <li>Item: Sofa</li>
+                    <li>Description: three-piece set </li>
+                    <li>Item Type: Furniture</li>
+                </ul>
+        </section>
+
+        <section class="item-container">
+            <h1>Discard</h1>
+                <ul>
+                    <li>List migrates here</li>
+                </ul>
+        </section>
+
+        <section class="item-container">
+            <h1>Sell</h1>
+                <ul>
+                    <li>List migrates here</li>
+                </ul>
+            </section>
+
+        <section class="item-container">
+            <h1>Donate</h1>
+                <ul>
+                    <li>List migrates here</li>     
+                </ul>
+        </section>
+
+    </main>
+    <footer role="footer">Footer</footer>
+</body>
+</html>
